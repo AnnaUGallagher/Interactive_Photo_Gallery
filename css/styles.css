@@ -1,0 +1,71 @@
+/* ============================================= */
+/*              base                           */
+/* ============================================= */
+* {
+  font-family: 'Oleo Script Swash Caps', cursive;
+  color: black;
+  box-sizing: border-box;
+  background-color:seashell;
+}
+
+p {
+  line-height: 1.45em;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* ============================================= */
+/*              Layout                           */
+/* ============================================= */
+h1 {
+    display: block;
+    text-align: center;
+    font-size: 3rem;
+    text-shadow: 1px 8px gainsboro;
+    margin-top:25px;
+    margin-bottom:15px;
+    padding-top:5px; 
+}
+
+
+/* ============================================= */
+  /*              Images                           */
+  /* ============================================= */
+#photo1:hover,#photo2:hover,#photo3:hover,
+#photo4:hover,#photo5:hover,#photo6:hover,
+#photo7:hover,#photo8:hover,#photo9:hover,
+#photo10:hover,#photo11:hover,#photo12:hover{
+  transform:scale(1.3);
+  }
+
+
+  /* ============================================= */
+  /*        GRID SYSTEM                                       */
+  /* ============================================= */
+  
+  .grid {
+      max-width: 1000px;
+      display:grid;
+      grid-template-columns: repeat(4,1fr);
+      grid-template-rows: repeat(3,1fr);
+      grid-column-gap:10px;
+      grid-row-gap:30px;
+  }
+  input[type="search" i] {
+      display:block;
+      margin: 10px auto;
+      width:40%;
+      box-shadow: 0 1px 6px rgba(32,33,36,.28);
+    border-color: rgb(69, 62, 62);
+    font-size:1.25rem;
+    margin-bottom:25px;
+    padding-bottom:5px;
+    font-family: 'Roboto', sans-serif;
+    }
+    input[type="search" i]:focus{
+      background-color:beige;
+      border-color:blanchedalmond;
+    }
+   
